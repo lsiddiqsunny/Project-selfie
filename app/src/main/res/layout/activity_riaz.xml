@@ -8,18 +8,18 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="106dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
         android:text="Chikon   riaz din din aro chikon hcche,vabnar bishoy!"
         android:textColor="@android:color/holo_blue_light"
         android:textSize="24sp"
-        tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="106dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="16dp" />
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
 
     <Button
         android:id="@+id/b2"
@@ -36,18 +36,18 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="382dp"
-        app:srcCompat="@drawable/riaz"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
+        android:layout_marginBottom="54dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="4dp"
         android:layout_marginStart="13dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView6"
-        android:layout_marginEnd="4dp"
-        app:layout_constraintRight_toRightOf="@+id/textView6"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="55dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="13dp"
-        android:layout_marginRight="4dp" />
+        app:layout_constraintRight_toRightOf="@+id/textView6"
+        app:srcCompat="@drawable/riaz"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
 </android.support.constraint.ConstraintLayout>

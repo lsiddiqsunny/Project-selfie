@@ -37,14 +37,14 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="390dp"
-        android:layout_height="370dp"
+        android:layout_width="368dp"
+        android:layout_height="302dp"
+        android:layout_marginBottom="29dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:srcCompat="@drawable/sadat"
         tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
-        android:layout_marginStart="6dp"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="29dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="6dp" />
+        tools:layout_constraintLeft_creator="1" />
 </android.support.constraint.ConstraintLayout>
